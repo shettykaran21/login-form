@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form>
+      <h1>Login</h1>
+      <div class="field">
+        <input type="email" name="email" class="input" placeholder=" " />
+        <label for="email" class="label">Email</label>
+      </div>
+      <div class="field">
+        <input
+          type="password"
+          name="password"
+          class="input"
+          id="password"
+          placeholder=" "
+        />
+        <label for="password" class="label">Password</label>
+      </div>
+
+      <div class="strength">
+        <span class="bar bar-1"></span>
+        <span class="bar bar-2"></span>
+        <span class="bar bar-3"></span>
+        <span class="bar bar-4"></span>
+      </div>
+
+      <!-- <ul>
+        <li>must be at least 5 characters</li>
+        <li>must contain a capital letter</li>
+        <li>must contain a letter</li>
+        <li>must contain one of $&+,:;?@#</li>
+      </ul> -->
+    </form>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
